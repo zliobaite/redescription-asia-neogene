@@ -1,0 +1,47 @@
+[
+        {
+	"lbl": "Early Miocene",
+	"min_min": 15.2,
+	"min_max": 17.0,
+	"max_min": 20.44,
+	"max_max": 23.03,
+	"max": 23.03,
+	"min": 15.97,
+	"climate_model": "EarlyMio_Nor_420"
+},
+{	"lbl": "Middle Miocene",
+	"min_min": 11.056,
+	"min_max": 12.174,
+	"max_min": 13.183,
+	"max_max": 15.5,
+	"max": 15.97,
+	"min": 11.63,
+	"climate_model": "EarlyMio_Nor_560"
+},
+{	"lbl": "early late Miocene",
+	"min_min": 7.2,
+	"min_max": 8.108,
+	"max_min": 11.592,
+	"max_max": 12.049,
+	"max": 11.63,
+	"min": 7.246,
+	"climate_model": "LateMio_Nor_350"
+},
+{	"lbl": "late Late Miocene",
+	"min_min": 5.3,
+	"min_max": 5.767,
+	"max_min": 7.251,
+	"max_max": 7.6,
+	"max": 7.246,
+	"min": 5.333,
+	"climate_model": "MidPlio_405"
+},
+{	"lbl": "Pliocene",
+	"min_min": 2.5,
+	"min_max": 3.032,
+	"max_min": 5.0,
+	"max_max": 5.333,
+	"max": 5.333,
+	"min": 2.58,
+	"climate_model": "MidPlio_405"
+} ]

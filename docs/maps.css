@@ -1,0 +1,240 @@
+html, body {
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+  color: #6b6b6b;
+  background-color: #f0f0f0;
+}
+#top-line {
+    margin: 20px 20px 10px 20px;
+}
+#top-line div {
+    display: inline;
+    margin: 5px 5px 5px 5px;
+}
+#content {
+  display: flex;
+}
+#main {
+  display: flex;
+  vertical-align: top;
+  align: center;
+  /*margin: 10px;
+  padding-bottom: 10px;*/
+  margin: 0px;
+  padding: 0px;
+} 
+
+.plot_block {
+  background-color: #e7e7e7;
+  border-left: 2px solid #cccccc;
+  border-radius: 5px 5px 15px 5px;
+  margin: 15px 0px 15px 15px;
+  padding: 5px;
+}
+
+.plot_block:last-child {
+  /*border-right: none;*/
+  margin: 15px 15px 15px 15px;
+}
+
+.plot_box {
+  flex: 1;
+  vertical-align: top;
+  align: center;
+  /*margin: 10px;
+  padding-bottom: 10px;*/
+  margin: 0px;
+  padding: 0px;
+}
+
+.block-params-redescription {
+  display: flex;
+}
+.block-params-redescription ul {
+  margin: 5px;
+  padding: 10px;
+  flex: 1;
+  background-color: #d6d6d6;
+  border-radius: 5px 5px 15px 5px;
+}
+.block-params-redescription ul li {
+  display: block;
+  margin: 0px;
+  padding: 2px;
+}
+
+.block-params-redescription select {
+  border: none;
+  padding: 5px;
+  margin: 0 auto;
+  color: #6b6b6b;
+  background: white;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.block-params-redescription input {
+  -webkit-appearance: none;
+  height: 3px;
+  border-radius: 5px; 
+  background: #ffffff;
+  /*border-bottom: solid 2px #333333;
+  outline: none;*/
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.block-params-redescription input::-webkit-slider-thumb {
+  width: 5px;
+  height: 20px;
+  border-radius: 2px;
+  background: #6b6b6b;
+}
+
+.block-params-redescription input::-moz-range-thumb {
+  width: 5px;
+  height: 20px;
+  border: none;
+  border-radius: 2px;
+  background: #6b6b6b;
+}
+
+.param-lbl:after {
+  content:": ";
+  padding: 30px 3px 10px 0px;
+}
+
+.plot_caption ul.sbb-cap {
+  margin: 25px 0px 10px 10px;
+  padding: 0px;
+}
+.plot_caption ul.sbb-cap li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px 10px 0px 10px;
+}
+
+.lbl-sbb-cap {
+  font-weight: bold;
+}
+.time-sbb-cap {
+  font-style: italic;
+}
+.clim-sbb-cap {
+  font-family: monospace;
+}
+.time-sbb-cap:before {
+  padding-left: 25px;
+}
+.time-sbb-cap:after {
+  content:" Ma";
+  font-style: normal;
+}
+.clim-sbb-cap:before {
+  content:"climate model: ";
+  font-family: sans-serif;
+}
+.nb-sbb-cap:before {
+  content:"N=";
+}
+.acc-sbb-cap:before {
+  content:"J=";
+  color:#6b6b6b;
+}
+.acc-sbb-cap {
+  color:#662A8D;
+}
+ul.redescription .query-LHS-redescription:before {
+  content: "qD=";
+  color:#6b6b6b;
+  padding-right: 3px;
+}
+ul.redescription .query-RHS-redescription:before {
+  content: "qC=";
+  color:#6b6b6b;
+  padding-right: 3px;
+}
+ul.redescription .query-LHS-redescription {
+  color: #FC5864;
+}
+ul.redescription .query-RHS-redescription {
+  color: #74A8F6;
+}
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 700px;
+    background-color: #555;
+    color: #fff;
+    text-align: left;
+    font-size: 9pt;
+    padding: 15px;
+    border-radius: 6px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    top: 125%;
+    left: 30%;
+    margin-left: -15px;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+/*.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+.down-tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}*/
+
+.tooltiptext dl {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.tooltiptext dt {
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.tooltiptext dt::after {
+    content: ":";
+}
+
+.tooltiptext dt::before {
+    content: "- ";
+}
+   
+.tooltiptext .kkey {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.tooltiptext .bcol, .tooltiptext .bbut {
+    font-style: italic;
+}
+.tooltiptext em {
+    color: #ccc;
+    font-style: normal;
+}
+
+.tooltiptext a {
+    color: #fff;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+}

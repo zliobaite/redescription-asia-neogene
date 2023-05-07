@@ -1,0 +1,266 @@
+{
+  "details_files": {
+    "time_intervals": "data/time_intervals.json",
+    "redescriptions": "data/redescriptions_queries.json",
+    "climate_models": "data/paleoclimates.json",
+    "geo_lines": "data/geo_lines.json"
+  },
+  "present_data_files": {
+    "teeth": "data/sites_traits_new_extended.csv",
+    "climate": "data/sites_bioclim_extended.csv",
+    "supps": "data/supps_present.csv"
+  },
+  "past_data_files": {
+    "locs": "data/localities_list.csv",
+    "teeth": "data/sites_traits_past.csv",
+    "climate": "data/sites_paleoclim/bioclim_SELECTED.csv",
+    "supps": "data/redescriptions_supps/supps_filtered_SELECTED.csv"
+  },
+  "climate_default": "SELECTED",
+  "exclude_vars_list": [
+    "ID",
+    "LIDNUM",
+    "NAME",
+    "PHI_LBL",
+    "RHO_LBL",
+    "LONG",
+    "LAT",
+    "longitude",
+    "latitude"
+  ],
+  "filters": {
+    "Groups:Asia": [
+      "North",
+      "South"
+    ],
+    "Groups:China": [
+      "NW",
+      "SE"
+    ]
+  },
+  "common_parameters": {
+      "selectable": "yes",
+      "red_props": ["query_LHS", "query_RHS"],
+    "xlims": [
+      64,
+      142
+    ],
+    "ylims": [
+      0,
+      52
+    ],
+    "fdims": [
+      640,
+      480
+    ],
+    "xfdims": [
+      1280,
+      960
+    ],
+    "presMrkProps": {
+      "size": 4.5,
+      "opacity": 0.15,
+      "symbol": "hexagon"
+    },
+    "presSelProps": {
+      "hoverinfo": "text",
+      "textposition": "top center",
+      "mode": "markers",
+      "textfont": {
+        "color": "#FFFFFF00"
+      },
+      "selected": {
+        "marker": {
+          "opacity": 1
+        },
+        "textfont": {
+          "color": "#000000AA"
+        }
+      },
+      "unselected": {
+        "marker": {
+          "opacity": 0.1
+        },
+        "textfont": {
+          "color": "#FFFFFF00"
+        }
+      }
+    },
+    "pastMrkProps": {
+      "size": 8
+    },
+    "pastSelProps": {
+      "hoverinfo": "text",
+      "textposition": "top center",
+      "mode": "markers+text",
+      "textfont": {
+        "color": "#FFFFFF00"
+      },
+      "selected": {
+        "marker": {
+          "size": 12
+        },
+        "textfont": {
+          "color": "#000000AA"
+        }
+      },
+      "unselected": {
+        "marker": {
+          "size": 6,
+          "opacity": 0.7
+        },
+        "textfont": {
+          "color": "#FFFFFF00"
+        }
+      }
+    },
+    "barProps": {},
+    "barWidth": 0.9,
+    "lgdProps": {},
+    "lgdTrcProps": {
+      "textposition": "middle right",
+      "textfont": {
+        "family": "sans serif",
+        "size": 8,
+        "color": "#888888"
+      }
+    },
+    "pastPinLineProps": {
+      "color": "#888888",
+      "width": 0.5
+    },
+    "geoLineProps": {
+      "color": "#EC7014",
+      "width": 1.5
+    },
+    "geoLinesNbSteps": 100,
+    "geoLinesMrg": 0.02,
+    "nb_bins": 10,
+    "download_filename": "maps_all.svg",
+    "log_delay": 100,
+    "nb_init_blocks": 2,
+      "var_group": "TIME_INTERVAL",
+    "src_selection": "mrk_trc_text",
+    "trg_selection": "mrk_trc_selectedpoints",
+    "layoutProps": {
+      "margin": {
+        "l": 5,
+        "r": 5,
+        "t": 5,
+        "b": 5
+      },
+      "paper_bgcolor": "#e7e7e7",
+      "clickmode": "event",
+      "hovermode": "closest",
+      "showlegend": false,
+      "xaxis2": {
+        "anchor": "y2",
+        "domain": [
+          0.855,
+          1
+        ],
+        "visible": false
+      },
+      "yaxis2": {
+        "anchor": "x2",
+        "domain": [
+          0,
+          1
+        ],
+        "visible": false
+      },
+      "geo": {
+        "domain": {
+          "x": [
+            0,
+            0.845
+          ],
+          "y": [
+            0,
+            1
+          ]
+        },
+        "scope": "asia",
+        "resolution": 50,
+        "projection": {
+          "type": "miller"
+        },
+        "lonaxis": {},
+        "lataxis": {},
+        "showcoastlines": true,
+        "showocean": true,
+        "oceancolor": "#F9FCFF",
+        "showcountries": false
+      }
+    },
+    "configProps": {
+      "displaylogo": false,
+      "toImageButtonOptions": {
+        "format": "svg",
+        "filename": "map",
+        "scale": 1
+      },
+      "modeBarButtonsToRemove": [
+        "zoom2d",
+        "pan2d",
+        "select2d",
+        "lasso2d",
+        "zoomIn2d",
+        "zoomOut2d",
+        "autoScale2d",
+        "resetScale2d",
+        "zoomInGeo",
+        "zoomOutGeo",
+        "resetGeo",
+        "hoverClosestGeo",
+        "hoverClosestGl2d",
+        "hoverClosestPie",
+        "toggleHover",
+        "resetViews",
+        "sendDataToCloud",
+        "toggleSpikelines",
+        "resetViewMapbox",
+        "hoverClosestCartesian",
+        "hoverCompareCartesian"
+      ]
+    }
+  },
+    "info_text": [
+      "<p>This is the visualization tool that accompanies our work on using redescription mining to analyze the distribution of terrestrial mammal communities over time and space during the Neogene in Asia [LINK].</p>",
+      "<p>The distribution of a chosen data variable or the support of a chosen redescription can be visualized as a collection of six figures displayed in a column, with the present-day plot at the top and the plot for each of the five time intervals we consider underneath, in chronological order.<br>",
+      "The main part of each plot, on the left-hand side, consists of a map. Each dot represents a locality in our study area and is colored according to its value for the chosen variable, or its status with respect to the queries of the chosen redescription.<br>",
+      "The narrower part of each plot, on the right-hand side, contains a histogram outlining the distribution of values among the localities in the foreground of the corresponding map and simultaneously providing the colorscale.<br>",
+      "Hovering over map foreground dots and  histogram bars reveals further details.</p>",
+      "",
+      "<p>The plus and minus signs in the top-left corner of the column allow respectively to duplicate it, adding a new column initialized with the same parameters, and to delete it.<br>",
+      "The form above each column allows to choose the visualization parameters for the column. Specifically the parameters are",
+      "<dl>",
+      "<dt>Variable</dt>",
+      "<dd>which variable or redescription to visualize.</dd>",
+      "<dt>climate model</dt>",
+      "<dd>when visualizing a climate variable or redescription, which paleoclimate model to use as the past data. The option <span class='bcol'>SELECTED</span> means using the respective hand-picked paleoclimate model and associated parameters for each time interval. See more details about the paleoclimate model in the <i>Supplementary Information</i>.</dd>",
+      "<dt>Filter variable</dt>",
+      "<dd>which variable, if any, to use for filtering fossil localities.</dd>",
+      "<dt>Filter value</dt>",
+      "<dd>which value of the filter variable, if any, to use for filtering fossil localities. Together with the filter value this allows to focus on subgroups of the fossil localities that correspond to the different subregions considered in our analysis.</dd>",
+      "<dt>Background opacity</dt>",
+      "<dd>how visible should be the dots representing present-day localities in the background of maps for the past.</dd>",
+      "</dl>",
+      "Foreground dots in a map and bars in a histogram can be selected by clicking on them. Selecting a bar in a histogram will select the localities that fall within the corresponding bin.</p>",
+      "",
+      "<p>When a redescription is selected, the dental query (qD) and climate query (qC) that constitute it are indicated next to the parameter form.<br>",
+      "For a given redescription,",
+      "<ul>",
+      "<li>we denote the set of localities that support both queries as <span class='bcol'>Exx</span>, depicted in purple.</li>",
+      "<li>We denote the set of localities that support only the dental query as <span class='bcol'>Exo</span>, depicted in red.</li> ",
+      "<li>We denote the set of localities that support only the climate query as <span class='bcol'>EoX</span>, depicted in blue.</li> ",
+      "<li>We denote the set of localities that support neither query as <span class='bcol'>Eoo</span>, depicted in grey.</li> ",
+      "</ul>",
+      "Please see the orginal manuscript and references therein for more details about redescriptions, how they are mined and how to interpret them.</p>",
+      "",
+      "<p>The link icon at the top of the page allows to obtain a url with the currently used visualization parameters and selected localities for sharing.<br>",
+      "The downward pointing arrow icon allows to download all plots currently drawn as a single file, from which the separate svgs can then be extracted.<br>",
+      "The camera icon in the top-left corner of each plot allows to save it individually as a picture file.<br>",
+      "Drawing multiple plots can take a little time, please be patient...</p>"
+    ]
+}
