@@ -590,10 +590,10 @@ function makeTracesLgds(data, lgdProps, trcProps, preff="lgd_"){
                }
     return copyTracesProps(lgds, data, lgdProps, trcProps, preff, "marker");
 }
-function prepareGeoLines(block_parameters, common_parameters, setup_parameters){  
+function prepareGeoLines(block_parameters, common_parameters, setup_parameters){    
     if ( block_parameters["var_filter"] && setup_parameters["geo_lines"][block_parameters["var_filter"]] ){ // && ! block_parameters["val_filter"]){
         let org_lines = setup_parameters["geo_lines"][block_parameters["var_filter"]]["lines"];
-        var data_geo_lines = {"line_x": [], "line_y": []};
+        var data_geo_lines = {"line_x": [], "line_y": [], "line_trc_props": []};
         for (var i = 0; i < org_lines.length; i++) {
             let [xA, yA] = org_lines[i]["xyA"];
             let [xB, yB] = org_lines[i]["xyB"];
@@ -619,6 +619,12 @@ function prepareGeoLines(block_parameters, common_parameters, setup_parameters){
             }
             data_geo_lines["line_x"].push(l_xs);
             data_geo_lines["line_y"].push(l_ys);
+            if ( org_lines[i]["label"] ){
+                data_geo_lines["line_trc_props"].push({"text": org_lines[i]["label"], "hoverinfo": "text"});
+            }
+            else {
+                data_geo_lines["line_trc_props"].push({});
+            }
         }
         return data_geo_lines;
     }

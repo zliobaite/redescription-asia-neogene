@@ -1,5 +1,5 @@
-{"Groups:Asia": {"lines": [{"xyA": [0, 28], "xyB": [1, 28]}],
+{"Groups:Asia": {"lines": [{"xyA": [0, 28], "xyB": [1, 28], "label": "(A)"}],
              "map_ids": ["North","South"]},
- "Groups:China": {"lines": [{"xyA": [106, 18], "xyB": [70, 36]}, {"xyA": [124, 43], "xyB": [87, 24]}],
+ "Groups:China": {"lines": [{"xyA": [106, 18], "xyB": [70, 36], "label": "(B)"}, {"xyA": [124, 43], "xyB": [87, 24], "label": "(C)"}],
             "map_ids": ["SE","o","NW","o"]}
 }
