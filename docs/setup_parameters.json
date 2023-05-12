@@ -226,7 +226,7 @@
     }
   },
     "info_text": [
-      "<p>This is the visualization tool that accompanies our work on using redescription mining to analyze the distribution of terrestrial mammal communities over time and space during the Neogene in Asia [LINK].</p>",
+      "<p>This is the visualization tool that accompanies our work on using redescription mining to analyze the distribution of terrestrial mammal communities over time and space during the Neogene in Asia.<br><a href='https://github.com/zliobaite/redescription-asia-neogene'>https://github.com/zliobaite/redescription-asia-neogene</a></p>",
       "<p>The distribution of a chosen data variable or the support of a chosen redescription can be visualized as a collection of six figures displayed in a column, with the present-day plot at the top and the plot for each of the five time intervals we consider underneath, in chronological order.<br>",
       "The main part of each plot, on the left-hand side, consists of a map. Each dot represents a locality in our study area and is colored according to its value for the chosen variable, or its status with respect to the queries of the chosen redescription.<br>",
       "The narrower part of each plot, on the right-hand side, contains a histogram outlining the distribution of values among the localities in the foreground of the corresponding map and simultaneously providing the colorscale.<br>",
