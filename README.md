@@ -3,7 +3,7 @@
 - `data_present_org`, climate, species and traits data for the present day
 
     - `bioclim_legend.txt`, list of [bioclimate variables](https://worldclim.org/data/bioclim.html)
-    - `sites_bioclim.csv`, the bioclimate variables, to grid. The script for generating the data from [WordClim2](https://www.worldclim.org/) can be found [here] (https://github.com/huitang-earth/Paleoclim_bias_correction/blob/main/Liu_etal_2023/prepare_bioclim_WorldClim2.ncl)
+    - `sites_bioclim.csv`, the bioclimate variables, to grid. The script for generating the data from [WordClim2](https://www.worldclim.org/) can be found [here](https://github.com/huitang-earth/Paleoclim_bias_correction/blob/main/Liu_etal_2023/prepare_bioclim_WorldClim2.ncl)
     - `sites_species.csv`, species occurrences, to grid
     - `species_traits.csv`, dental traits old scores
     - `species_traits_new.csv`, dental traits new scores
