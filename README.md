@@ -3,7 +3,7 @@
 - `data_present_org`, climate, species and traits data for the present day
 
     - `bioclim_legend.txt`, list of [bioclimate variables](https://worldclim.org/data/bioclim.html)
-    - `sites_bioclim.csv`, the bioclimate variables, to grid
+    - `sites_bioclim.csv`, the bioclimate variables, to grid. The script for generating the data from [WordClim2](https://www.worldclim.org/) can be found [here] (https://github.com/huitang-earth/Paleoclim_bias_correction/blob/main/Liu_etal_2023/prepare_bioclim_WorldClim2.ncl)
     - `sites_species.csv`, species occurrences, to grid
     - `species_traits.csv`, dental traits old scores
     - `species_traits_new.csv`, dental traits new scores
@@ -15,7 +15,7 @@
     - `species_traits_past.csv`, dental traits new scores
     - `now_export_locsp_public_2022-07-23T11#31#34+0000.csv`, dump of the [NOW database](https://nowdatabase.luomus.fi/locality_list.php) (`Export > All NOW localities, Include species lists, Field separator: Tab`)
 
-    - `sites_paleoclim.zip`, paleoclimate models data
+    - `sites_paleoclim.zip`,  bias-corrected paleoclimate models data. The workflow for generating bias-corrected paleoclimate model data can be found [here](https://github.com/huitang-earth/Paleoclim_bias_correction/tree/main/Liu_etal_2023).
     
     - `time_intervals.json`, details of the time intervals
     - `geo_lines.json`, coordinates for defining the subregions
