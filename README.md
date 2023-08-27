@@ -2,13 +2,13 @@
 > In this repository, we provide the code and data to allow full reproducibility of our analysis.
 > The code that we provide fully automates the data processing pipeline as described in the manuscript.
 > In particular, the code allows to extract the necessary data records from the source databases given the areas, time intervals and taxonomic orders of interest (cf. manuscript and appendix).
-
+>
 > Our analysis rests on publicly available data sources, such as [WorldClim](https://worldclim.org/) and the [NOW database](https://nowdatabase.luomus.fi/), which we do not maintain and curate ourselves. The teams behind these databases keep updating them, making edits, correcting and inserting records.
 > Therefore, we include snapshots of the databases taken at the time we performed the analysis, so that our results can be replicated by running the provided scripts.
 > To download or browse the data, and obtain more details about the data format and curation, please refer to the source databases. 
-
+>
 > Providing these scripts also allows to rerun the analysis on more recent versions of the source databases, or with different choices for the time intervals, areas, taxonomic orders, etc.
-
+>
 > All code is written in [Python](https://www.python.org/). Re-running the analysis from scratch using the code and data provided here by following the instructions below hence requires familiarity with this programming language.
 > However, this is definitely not necessary in order to understand our analysis and the discussion in the manuscript.
 
