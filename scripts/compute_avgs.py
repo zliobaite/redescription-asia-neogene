@@ -8,7 +8,7 @@ import prepare_data_traits
 
 import argparse
 
-parser = argparse.ArgumentParser(description='Averaging variables over groups of localitites.')
+parser = argparse.ArgumentParser(description='Averaging variables over groups of localities.')
 parser.add_argument("-p", "--plotlocs", type=str, help="Localities info for plotting (input)", required=True)
 parser.add_argument("-d", "--dental_data", type=str, help="Aggregated dental traits per site (input)", required=True)
 parser.add_argument("-c", "--climate_data", type=str, help="Climate variables per site (input)", required=True)
