@@ -13,7 +13,7 @@
 > However, this is definitely not necessary in order to understand our analysis and the discussion in the manuscript.
 
 ## Original article:
-*The emergence of modern zoogeographic regions in Asia examined through climate–dental traits association patterns*. Under review.
+*The emergence of modern zoogeographic regions in Asia examined through climate–dental trait association patterns*. Under review.
 
 - [manuscript](./manuscript.pdf)
 - [appendix](./appendix.pdf)
@@ -25,7 +25,7 @@ However, the timings of the emergence of these distributional patterns and the u
 Here, we apply a computational data analysis technique, called redescription mining, to track these spatiotemporal phenomena by studying the associations between the prevailing herbivore dental traits of mammalian communities and climatic conditions during the Neogene. 
 
 Our results indicate that the modern latitudinal zoogeographic division emerged after the Middle Miocene climatic transition, and that the modern monsoonal zoogeographic pattern emerged during the late Late Miocene.
-Furthermore, the presence of a montane forest biodiversity hotspot in the Hengduan Mountains alongside Alpine fauna on the Tibetan Plateau suggests that the modern distribution patterns may already exist since the Pliocene.
+Furthermore, the presence of a montane forest biodiversity hotspot in the Hengduan Mountains alongside Alpine fauna on the Tibetan Plateau suggests that the modern distribution patterns may have already existed since the Pliocene.
 
 ## List of contents
 
