@@ -261,6 +261,7 @@
       "<p>The link icon at the top of the page allows to obtain a url with the currently used visualization parameters and selected localities for sharing.<br>",
       "The downward pointing arrow icon allows to download all plots currently drawn as a single file, from which the separate svgs can then be extracted.<br>",
       "The camera icon in the top-left corner of each plot allows to save it individually as a picture file.<br>",
-      "Drawing multiple plots can take a little time, please be patient...</p>"
+      "Drawing multiple plots can take a little time, please be patient...</p>",
+      "<p>This visualization tool uses the <a href='https://plotly.com/javascript/'>plotly javaScript open source graphing library.</a></p>"
     ]
 }

@@ -1,7 +1,7 @@
 > [!NOTE]
 > In this repository, we provide the code and data to allow full reproducibility of our analysis.
 > The code that we provide fully automates the data processing pipeline as described in the manuscript.
-> In particular, the code allows to extract the necessary data records from the source databases given the areas, time intervals and taxonomic orders of interest (cf. manuscript and appendix).
+> In particular, the code allows to extract the necessary data records from the source databases given the areas, time intervals and taxonomic orders of interest (cf. manuscript and supplementary information).
 >
 > Our analysis rests on publicly available data sources, such as [WorldClim](https://worldclim.org/) and the [NOW database](https://nowdatabase.luomus.fi/), which we do not maintain and curate ourselves. The teams behind these databases keep updating them, making edits, correcting and inserting records.
 > Therefore, we include snapshots of the databases taken at the time we performed the analysis, so that our results can be replicated by running the provided scripts.
@@ -13,10 +13,10 @@
 > However, this is definitely not necessary in order to understand our analysis and the discussion in the manuscript.
 
 ## Original article:
-*The emergence of modern zoogeographic regions in Asia examined through climate–dental trait association patterns*. Under review.
+*The emergence of modern zoogeographic regions in Asia examined through climate–dental trait association patterns*. Liu et al. 2024, Nature Communications (to appear)
 
 - [manuscript](./manuscript.pdf)
-- [appendix](./appendix.pdf)
+- [supplementary information](./supplementary_information.pdf)
 - [maps visualization](https://zliobaite.github.io/redescription-asia-neogene/)
 
 #### Abstract
