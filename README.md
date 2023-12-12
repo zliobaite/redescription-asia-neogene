@@ -1,3 +1,19 @@
+## Original article:
+*The emergence of modern zoogeographic regions in Asia examined through climate–dental trait association patterns*. Liu et al. 2023, Nature Communications. DOI:[10.1038/s41467-023-43807-w](http://dx.doi.org/10.1038/s41467-023-43807-w)
+
+- [manuscript](./manuscript.pdf)
+- [supplementary information](./supplementary_information.pdf)
+- [maps visualization](https://zliobaite.github.io/redescription-asia-neogene/)
+
+#### Abstract
+The complex and contrasted distribution of terrestrial biota in Asia has been linked to active tectonics and dramatic climatic changes during the Neogene.
+However, the timings of the emergence of these distributional patterns and the underlying climatic and tectonic mechanisms remain disputed. 
+Here, we apply a computational data analysis technique, called redescription mining, to track these spatiotemporal phenomena by studying the associations between the prevailing herbivore dental traits of mammalian communities and climatic conditions during the Neogene. 
+%
+Our results indicate that the modern latitudinal zoogeographic division emerged after the Middle Miocene climatic transition, and that the modern monsoonal zoogeographic pattern emerged during the late Late Miocene.
+Furthermore, the presence of a montane forest biodiversity hotspot in the Hengduan Mountains alongside Alpine fauna on the Tibetan Plateau suggests that the modern distribution patterns may have already existed since the Pliocene.
+
+## List of contents
 > [!NOTE]
 > In this repository, we provide the code and data to allow full reproducibility of our analysis.
 > The code that we provide fully automates the data processing pipeline as described in the manuscript.
@@ -12,22 +28,6 @@
 > All code is written in [Python](https://www.python.org/). Re-running the analysis from scratch using the code and data provided here by following the instructions below hence requires familiarity with this programming language.
 > However, this is definitely not necessary in order to understand our analysis and the discussion in the manuscript.
 
-## Original article:
-*The emergence of modern zoogeographic regions in Asia examined through climate–dental trait association patterns*. Liu et al. 2024, Nature Communications (to appear)
-
-- [manuscript](./manuscript.pdf)
-- [supplementary information](./supplementary_information.pdf)
-- [maps visualization](https://zliobaite.github.io/redescription-asia-neogene/)
-
-#### Abstract
-The complex and contrasted distribution of terrestrial biota in Asia has been linked to active tectonics and dramatic climatic changes during the Neogene.
-However, the timings of the emergence of these distributional patterns and the underlying climatic and tectonic mechanisms remain disputed. 
-Here, we apply a computational data analysis technique, called redescription mining, to track these spatiotemporal phenomena by studying the associations between the prevailing herbivore dental traits of mammalian communities and climatic conditions during the Neogene. 
-
-Our results indicate that the modern latitudinal zoogeographic division emerged after the Middle Miocene climatic transition, and that the modern monsoonal zoogeographic pattern emerged during the late Late Miocene.
-Furthermore, the presence of a montane forest biodiversity hotspot in the Hengduan Mountains alongside Alpine fauna on the Tibetan Plateau suggests that the modern distribution patterns may have already existed since the Pliocene.
-
-## List of contents
 
 - `data_present_org`, climate, species and traits data for the present day
 

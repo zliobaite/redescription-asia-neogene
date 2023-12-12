@@ -72,8 +72,8 @@
     <name>redundancy_threshold</name>
     <value>0.9</value>
   </parameter>
-  <!-- <parameter>
+  <parameter>
     <name>actions_rdefs</name>
     <value>./actions_rdefs_custom.xml</value>
-  </parameter> -->
+  </parameter> <!-- -->
 </root>
